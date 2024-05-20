@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dasar pemrograman-luluk indrawati</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Unjuk keterampilan</h1>
+    <p>Silakan klik tautan di bawah ini untuk mengunduh file Word:</p>
+    <a href="1.docx" download> Spesifikasi perangkat lunak</a>
+    <h1>Menghitung Luas Bangun Datar</h1>
+    <select id="shape">
+        <option value="square">Persegi</option>
+        <option value="rectangle">Persegi Panjang</option>
+        <option value="triangle">Segitiga</option>
+        <option value="circle">Lingkaran</option>
+    </select>
+    <input type="number" id="input1" placeholder="Masukkan nilai pertama (sisi, alas, atau radius)">
+    <input type="number" id="input2" placeholder="Masukkan nilai kedua (tinggi atau lebar jika perlu)">
+    <button onclick="calculateArea()">Hitung Luas</button>
+    <p id="result"></p>
+
+    <script src="script.js"></script>
+    <div class="container">
+        <h1>Todo List</h1>
+        <form id="todo-form">
+            <input type="text" id="todo-input" placeholder="Enter a new todo" required>
+            <button type="submit">Add</button>
+        </form>
+        <ul id="todo-list"></ul>
+    </div>
+    <script src="script.js"></script>
+    <a href="blackbox.html">Black Box</a>
+</body>
+</html>
